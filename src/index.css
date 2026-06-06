@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato', system-ui, sans-serif;
+  color: #1a1a1a;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1.875rem;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+}
+
+.gradient-warm {
+  background: linear-gradient(135deg, #C4622D 0%, #E8B4A8 100%);
+}
+
+.gradient-cool {
+  background: linear-gradient(135deg, #2C5282 0%, #4A90E2 100%);
+}
+
+.btn {
+  @apply px-8 py-3 font-semibold rounded-lg transition-all duration-300 inline-block text-center;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-opacity-90 shadow-lg hover:shadow-xl;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white hover:bg-opacity-90 shadow-lg hover:shadow-xl;
+}
+
+.section-padding {
+  @apply py-16 md:py-24 px-4 md:px-8;
+}
+
+.container {
+  @apply max-w-7xl mx-auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  @apply w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:border-primary transition-colors;
+}
+
+button:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+.accordion-button {
+  @apply w-full flex justify-between items-center p-4 text-left font-semibold bg-light hover:bg-gray-100 rounded-lg transition-colors;
+}
+
+.accordion-content {
+  @apply bg-white border-l-4 border-primary p-4 mt-2;
+}
