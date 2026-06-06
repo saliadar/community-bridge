@@ -189,7 +189,7 @@ export const translations = {
     // About Section
     about: {
   headline: 'Sobre Stuart',
-  story: 'Soy australiano de nacimiento con padres argentinianos. Migré a Europa yo mismo. Conozco este viaje.\n\nComencé Community Bridge porque me di cuenta de que hay una brecha: la mayoría de los consejos sobre inmigración son genéricos. Lo que los latinoamericanos necesitan es alguien que entienda AMBOS lados.\n\nEso soy yo. Y estoy comprometido a hacerlo bien para ti.',
+  story: 'Soy Australiano de nacimiento con padres Argentinos. Migré a Europa yo mismo. Conozco este viaje.\n\nComencé Community Bridge porque me di cuenta de que hay una brecha: la mayoría de los consejos sobre inmigración son genéricos. Lo que los latinoamericanos necesitan es alguien que entienda AMBOS lados.\n\nEso soy yo. Y estoy comprometido a hacerlo bien para ti.',
   credibility: [
     'Soporte bilingüe - Español e Inglés',
     'Experiencia vivida - hijo de inmigrantes e inmigrante yo mismo',
@@ -200,7 +200,7 @@ export const translations = {
     // Services Section
     services: {
       headline: "Nuestros Servicios",
-      subheadline: "Apoyo completo para tu camino australiano",
+      subheadline: "Apoyo completo para tu camino Australiano",
       immigration: {
         title: "Ayuda Inmigratoria",
         description: "Orientación experta sobre opciones de visas, evaluación y apoyo de asentamiento para hacer tu mudanza a Australia sin complicaciones.",
